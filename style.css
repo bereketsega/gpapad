@@ -54,6 +54,7 @@ header {
   margin-top: 20px;
   outline: none;
   border: 1px solid #dbdbdb;
+  color: #000000;
   background-color: #ffffff;
   width: fit-content;
   height: fit-content;
@@ -100,7 +101,7 @@ header {
 @media only screen and (max-width: 580px) {
   #courseName,
   #creditAmount {
-    width: 70px;
+    width: 50px;
   }
   header {
     font-size: 18px;
