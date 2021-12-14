@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image" href="calculator-icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>GPApad</title>
+  </head>
+  <body>
+    <header>GPA Calculator</header>
+
+    <div id="main-container"></div>
+    <input
+      type="submit"
+      id="addCourse-btn"
+      value="Add Course"
+      onclick="addCourse()"
+    />
+    <br />
+    <input
+      type="submit"
+      id="calc-btn"
+      value="Calculate"
+      onclick="calculateGpa()"
+    />
+
+    <div id="gpaContainer"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
