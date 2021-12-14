@@ -129,16 +129,16 @@ function displayGpa(gpa) {
     case 3.7 <= gpa && gpa <= 4:
       gpaContainer.style.backgroundColor = "#2ce574";
       break;
-    case 2.7 <= gpa && gpa < 3.6:
+    case 2.7 <= gpa && gpa < 3.69:
       gpaContainer.style.backgroundColor = "#cdf03a";
       break;
-    case 1.7 <= gpa && gpa < 2.6:
+    case 1.7 <= gpa && gpa < 2.69:
       gpaContainer.style.backgroundColor = "#ffe500";
       break;
-    case 0.7 <= gpa && gpa < 1.6:
+    case 0.7 <= gpa && gpa < 1.69:
       gpaContainer.style.backgroundColor = "#ff9600";
       break;
-    case gpa <= 0.6:
+    case gpa <= 0.69:
       gpaContainer.style.backgroundColor = "#ff3925";
       break;
     default:
